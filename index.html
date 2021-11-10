@@ -75,6 +75,15 @@
             </div>
         </div>
     </div>
+    <script>let parent = document.getElementById("parent");
+        let parent2 = document.getElementById("parent2");
+        let product = document.getElementById("product");
+        window.addEventListener("scroll", function () {
+            let value = window.scrollY;
+            parent.style.bottom = -230 + value * 2 + "px";
+            parent2.style.top = -160 + value * -0.3 + "px";
+            product.style.top = -270 + value * -0.5 + "px";
+        });</script>
 </body>
 
 
