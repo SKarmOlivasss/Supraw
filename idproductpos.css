@@ -1,4 +1,20 @@
+/* SKATE */
+
 #skate {
   left: 120px;
   top: 300px;
+}
+
+/* HOMEMADE NB */
+#HomemadeNB {
+  left: 750px;
+  top: -180px;
+}
+#HomemadeNB img {
+  width: 215px;
+  height: 280px;
+  transform: translateX(55px) translateY(-46px);
+}
+#HomemadeNB .contentBx h2 {
+  font-size: 20px;
 }

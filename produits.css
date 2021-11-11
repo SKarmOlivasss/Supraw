@@ -152,7 +152,7 @@
   color: #111;
   opacity: 0;
   transform: translateY(50px);
-  transition: 2s;
+  transition: 0.5s;
   overflow-y: hidden;
 }
 .container .card .contentBx a:hover {
@@ -161,5 +161,6 @@
 .container .card:hover .contentBx a {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 0.7s;
   overflow-y: hidden;
 }
